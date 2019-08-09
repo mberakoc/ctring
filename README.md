@@ -1,2 +1,1 @@
-# ctring
-A string library for C
+## A string library for C
