@@ -48,6 +48,7 @@ String create_string(char char_array[])
 	{
 		create_string(char_array);
 	}
+	return *string;
 }
 
 void append_char_unit(_CharList *char_list_header_ptr, _CharList *char_list_tail_ptr, char char_unit)
