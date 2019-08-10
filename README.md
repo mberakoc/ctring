@@ -4,5 +4,4 @@ Ctring is a C library created for string manipulation.
 * __Brand New Declaration:__ Creating a string in C nowadays can be really complicated without any interface. Ctring deals with this problem in a very delicate way.
 * __Miscellaneous and Plenty Functions:__ Reversing a string, finding a substring into another string or even converting uniquely defined string structure to a character array. All of them defined in this minimal yet powerful library.
 # Installation
-String can be installed from: [![Mediafire logo](https://www.mediafire.com/images/logos/mf_logo250x250.png)](http://www.mediafire.com/file/24zxio83teutlmi/ctring.h/file)
-<img src="https://github.com/favicon.ico" width="48">
+String can be installed from: <img width="25" height="25" src="https://www.mediafire.com/images/logos/mf_logo250x250.png">(http://www.mediafire.com/file/24zxio83teutlmi/ctring.h/file)
