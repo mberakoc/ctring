@@ -41,4 +41,4 @@ This example will print "Hello World!" string on the screen.
 You'll notice how easy to create a string only using `create_string` function without struggling all these useless middleware. This is one the most powerful sides of this library. It offers a well-thought abstraction. Without taking any control it gives you ligthweight coding benefit.
 
 ## Licence 
-Ctring is [GNU Licensed](https://github.com/ThankfulBird/ctring/blob/master/LICENSE)
+Ctring is [GNU Licensed.](https://github.com/ThankfulBird/ctring/blob/master/LICENSE)
