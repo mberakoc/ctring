@@ -24,3 +24,21 @@ The documentation devided into several sections:
 
 You can improve it by sending pull requests to [this repository](https://github.com/ThankfulBird/ctring)
 # Examples
+You can find alot of examples in website. Here is the first one to get you started:
+```c
+#include "ctring.h"
+
+int main(int argc, char const *argv[])
+{
+  String string = create_string("Hello World!");
+  print_string(string);
+  return EXIT_SUCCESS;
+}
+```
+
+This example will print "Hello World!" string on the screen.
+
+You'll notice how easy to create a string only using `create_string` function without struggling all these useless middleware. This is one the most powerful sides of this library. It offers a well-thought abstraction. Without taking any control it gives you ligthweight coding benefit.
+
+## Licence 
+Ctring is [GNU Licensed](https://github.com/ThankfulBird/ctring/blob/master/LICENSE)
