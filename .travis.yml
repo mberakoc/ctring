@@ -1,9 +1,1 @@
 language: c
-sudo: false # only for faster builds
-script:
-  - clang -coverage -O0 string_test.c -o string_test
-  - ./string_test
-  - gcov string_test.c
-
-after_success:
-  - bash <(curl -s https://codecov.io/bash)
