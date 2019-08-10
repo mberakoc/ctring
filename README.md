@@ -12,7 +12,7 @@ You can start using library just including it like below:
 #include "ctring.h"
 ```
 # Documentation
-You can find documentation [on the website](http://127.0.0.1:5500/template/)
+You can find documentation [on the website.](http://127.0.0.1:5500/template/)
 
 Check out the [Getting Started](http://127.0.0.1:5500/template/introduction.html) for quick review.
 
@@ -22,7 +22,7 @@ The documentation devided into several sections:
 * [Structures](http://127.0.0.1:5500/template/structures.html)
 * [Functions](http://127.0.0.1:5500/template/functions.html)
 
-You can improve it by sending pull requests to [this repository](https://github.com/ThankfulBird/ctring)
+You can improve it by sending pull requests to [this repository.](https://github.com/ThankfulBird/ctring)
 # Examples
 You can find alot of examples in website. Here is the first one to get you started:
 ```c
