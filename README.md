@@ -1,1 +1,1 @@
-# A string library for C
+# [Ctring](http://127.0.0.1:5500/template/)
