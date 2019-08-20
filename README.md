@@ -18,9 +18,9 @@ Check out the [Getting Started](http://localhost/ctring/template/introduction.ht
 
 The documentation devided into several sections:
 
-* [Getting Started](http://127.0.0.1:5500/template/introduction.html)
-* [Structures](http://127.0.0.1:5500/template/structures.html)
-* [Functions](http://127.0.0.1:5500/template/functions.html)
+* [Getting Started](http://localhost/ctring/template/introduction.html)
+* [Structures](http://localhost/ctring/template/structures.html)
+* [Functions](http://localhost/ctring/template/functions.html)
 
 You can improve it by sending pull requests to [this repository.](https://github.com/ThankfulBird/ctring)
 # Examples
