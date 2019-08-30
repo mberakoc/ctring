@@ -185,3 +185,38 @@ char * convert_to_char_array(String string)
 	*(char_array + index) = '\0';
 	return char_array;
 }
+
+String copy(String string)
+{
+	return create_string(convert_to_char_array(string));
+}
+
+void insert(String core, String node, unsigned index)
+{
+	if (index > (core).length)
+	{
+		fprintf(stderr, "%s\n", "Index out of bounds.");
+		return;
+	}
+	_CharList current_char_list_ptr = (core).char_list_header;
+	for (unsigned i = 0; i < index - 1; ++i)
+	{
+		current_char_list_ptr = current_char_list_ptr->next_ptr;
+	}
+	_CharList end_char_list_ptr = current_char_list_ptr->next_ptr;
+	_CharList node_char_list_ptr = node.char_list_header;
+	while (node_char_list_ptr != NULL)
+	{
+		_CharList new_char_list_ptr = (_CharList) malloc(sizeof(CharList));
+		if (new_char_list_ptr != NULL)
+		{
+			new_char_list_ptr->char_unit = node_char_list_ptr->char_unit;
+			new_char_list_ptr->next_ptr = NULL;
+			new_char_list_ptr->previous_ptr = current_char_list_ptr->next_ptr;
+			current_char_list_ptr->next_ptr = new_char_list_ptr;
+      current_char_list_ptr = new_char_list_ptr;
+			node_char_list_ptr = node_char_list_ptr->next_ptr;
+		}
+	}
+	current_char_list_ptr->next_ptr = end_char_list_ptr;
+}
