@@ -1,4 +1,4 @@
-#include "ctring.h"
+#include "../lib/ctring.h"
 
 int main(int argc, char const *argv[])
 {
